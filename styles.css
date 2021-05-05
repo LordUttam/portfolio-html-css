@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+:root {
+    --primary-color: #0984e3;
+    --off-white: #F3F4F6;
+    --asbestos: #7f8c8d;
+}
+
+body {
+    font-family: 'Montserrat' , 'sans-serif';
+    margin: 0px;
+}
+	
+/** spaces **/	
+.margin-md {	
+    margin: 2rem;	
+}	
+
+.container {
+    padding: 0rem 3rem;
+}
+
+.container-center {
+    max-width:600px;
+    margin: auto;
+    text-align: center;
+}
+
+.link {
+    padding: 0.75rem 1rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+.primary-link {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 2px solid var(--primary-color);
+    color: white;
+    display: inline-flex;
+    max-width: 140px;
+    margin: 1rem auto;
+}
+
+.secondary-link {
+    background-color: white;
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 2px solid var(--primary-color);
+    max-width: 140px;
+    margin: 1rem auto;
+    display: inline-flex;
+}
+
+.unordered-list {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.inline-list-item {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    color:white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link {
+    color: white;
+    transition: all 0.2s;
+}
+
+.navigation .link:hover {
+    font-weight: bold;
+}
+
+.active-link {
+    font-weight: bold;
+}
+
+.hero {
+    padding: 2rem;
+}
+
+.hero-img {
+    max-width: 40%;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    color: var(--asbestos);
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.hero .hero-heading .heading-inverted {
+    color: var(--primary-color);
+}
+
+.section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.section h1 {
+    text-align: center;
+}
+
+.ow {
+    background-color: var(--off-white);
+}
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link {
+    color: white;
+}
+
+.footer .footer-header {
+   
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+/** projects **/
+.showcase-list {
+    padding: 2rem;
+}
+
+.showcase-blog {
+    padding-bottom: 6rem;
+    text-align: left;
+}
+
+.footer .social-icons {
+    width: 2.25rem;
+    padding: 0 0.25rem;
+    transition: all 0.2s;
+}
+
+.footer .social-icons:hover {
+    transform: scale(1.2);
+}
