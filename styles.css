@@ -53,6 +53,10 @@ body {
     display: inline-flex;
 }
 
+.primary-link:hover, .secondary-link:hover {
+    box-shadow: 0 .5rem 1rem 0 gray;
+}
+
 .unordered-list {
     list-style: none;
     padding-inline-start: 0px;
@@ -121,9 +125,19 @@ body {
     text-align: center;
 }
 
+.tag {
+    margin-left: 2rem;
+    font-size: 1rem;
+    border: 2px solid var(--primary-color);
+}
+/* 
 .ow {
     background-color: var(--off-white);
+} */
+.section:nth-of-type(2n+1) {
+    background-color: var(--off-white);
 }
+
 
 .footer {
     background-color: var(--primary-color);
